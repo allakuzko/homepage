@@ -1,13 +1,162 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Résumé</title>
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="styles.css">
     </head>
       
   <body>
-    ― Hello World! &#x1F609;
+    <main>
+        <div class="resume">
+          <div class="container">
+            <!-- Контактна інформація -->
+            <div class="resume__block">
+              <h1 class="contact-info__header">Alla Kuzko</h1>
+              <h3 class="contact-info__sub-header">Student</h3>
+      
+              <div class="contact_info_container fh">
+                <div class="contact-info__block">
+                  <a href="#" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                      <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                        <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192C0 85.961 85.961 0 192 0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535 13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817 80-80s-35.817-80-80-80s-80 35.817-80 80s35.817 80 80 80z"/>
+                      </svg>
+                    </div>
+                    <span>Lviv, Ukraine</span>
+                  </a>
+      
+                  <a href="mailto:your@email.com" class="contact-info__item">
+                    <div class="contact-info__item-icon-wrapper">
+                      📧
+                    </div>
+                    <span>alla10092016@email.com</span>
+                  </a>
+                </div>
+      
+                <div class="contact-info__block contact-info__block--center">
+                  <img class="contact-info__avatar" src="assets/avatar.jpg" alt="Avatar" />
+                </div>
+      
+                <div class="contact-info__block">
+                    <a href="https://github.com/allakuzko" class="contact-info__item">
+                        <div class="contact-info__item-icon-wrapper">🐙</div>
+                        <span>github.com/allakuzko</span>
+                      </a> 
+                </div>
+              </div>
+            </div>
+      
+            <!-- Intro -->
+            <div class="resume__block">
+              <div class="intro">
+                <div class="intro__icon-wrapper">💬</div>
+                <p class="intro_text">
+                    Developer by day, cinephile by night.
+                    If my code had a genre — it would be a European arthouse drama with great architecture and better indentation.
+                </p>
+              </div>
+            </div>
+      
+            <!-- Skills -->
+            <div class="resume__block">
+              <div class="skills">
+                <h3 class="skills__header">Skills</h3>
+                <p class="skills__text">
+                  Python, HTML/CSS, Flutter, JS, Rust, C, Git, Linux, FastAPI, Problem Solving, Communication
+                </p>
+              </div>
+            </div>
+      
+            <!-- Experience + Additional info -->
+            <div class="resume__block">
+              <div class="main-info fh">
+                <!-- Experience -->
+                <div class="experiences">
+                  <h3 class="experiences__header">Experience</h3>
+                  <div class="experiences__company">
+                    <div class="experiences__company-header">
+                      <span class="experiences__company-header-durability">2022–Present</span>
+                      <h3 class="experiences__company-header-name">Self-development</h3>
+                    </div>
+      
+                    <div class="experiences__company-project">
+                      <span class="experiences__company-project-role">Frontend Developer</span>
+                      <h3 class="experiences__company-project-name">Homepage Project</h3>
+                      <ul class="experiences__company-project-responsibilities">
+                        <li>Implemented responsive UI</li>
+                        <li>Maintained codebase and Git flow</li>
+                        <li>Collaborated in Agile team</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+      
+                <!-- Additional info -->
+                <div class="additional-info fv">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Education</h3>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability">2022–2026</span>
+                      <h3 class="additional-info__education-university-speciality">BSc in System Analysis</h3>
+                      <p class="additional-info__education-university-name">Lviv Polytechnic National University</p>
+                    </div>
+                    <div class="additional-info__education-university">
+                        <span class="additional-info__education-university-durability">2025</span>
+                        <h3 class="additional-info__education-university-speciality">Erasmus program(Computer Science)</h3>
+                        <p class="additional-info__education-university-name">Universite Sorbonne Paris Nord</p>
+                      </div>
+                  </div>
+             
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">Ukrainian (native)</p>
+                    <p class="additional-info__languages-item">English (advanced)</p>
+                    <p class="additional-info__languages-item">French (intermediate)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="resume__block">
+                <h3 class="skills__header">Projects</h3>
+                <ul class="skills__text">
+                  <li><a href="https://github.com/allakuzko/homepage">Personal Resume Site</a></li>
+                  <li><a href="#">PsyKinoLit — emotional cinema insights 📽</a></li>
+                  <li><a href="#">TimeCapsule — send messages to the future ⏳</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="container">
+              <div class="resume__block">
+                <h3 class="skills__header">Fun Facts</h3>
+                <ul class="skills__text">
+                  <li>I sometimes debug with chocolate 🍫</li>
+                  <li>My favorite variable name is <code>existentialCrisisLevel</code></li>
+                </ul>
+              </div>
+            </div>
+             
+            <div class="container">
+              <div class="resume__block quote">
+                <blockquote>
+                  “If my code doesn’t work — it’s not a bug, it’s a plot twist.” 👀
+                </blockquote>
+              </div>
+            </div>
+            
+      
+          </div>
+        </div>
+      </main>
+    <footer class="footer">
+      <p class="footer__text">
+         Handcrafted with ☕ and ☀️ by Alla Kuzko.
+      </p>
+    </footer>
+      
   </body>
 </html>
